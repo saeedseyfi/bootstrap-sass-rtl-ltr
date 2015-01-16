@@ -3,11 +3,11 @@
 Features:
 - support both RTL and LTR languages
 - separete settings file for each of directions
-- ltr direction optimized as default for Persian(farsi) language with specific fonts.
+- RTL direction optimized as default for Persian(farsi) language with specific fonts.
 
 ## Installation
 ------
-for insallation, just change @import of direction settings file in [_bootstrap,scss](__DIR__/assets/stylesheets/_bootstrap.scss).
+for insallation, just change @import of direction settings file in [_bootstrap.scss](assets/stylesheets/_bootstrap.scss).
 ```sass
 @import "rtl"; // or ltr
 ```
@@ -15,4 +15,4 @@ for insallation, just change @import of direction settings file in [_bootstrap,s
 
 ## Settings
 ------
-Settings files for both RTL and LTR exists in `__DIR__/assets/stylesheets/rtl.scss` && `__DIR__/assets/stylesheets/ltr.scss`.
+Settings files for both RTL and LTR exists in `assets/stylesheets/rtl.scss` && `/assets/stylesheets/ltr.scss`.
