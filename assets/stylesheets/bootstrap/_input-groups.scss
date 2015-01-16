@@ -108,10 +108,10 @@
 .input-group-btn:first-child > .dropdown-toggle,
 .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
 .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
-  @include border-right-radius(0);
+  @include single-side-border-radius($dir-mode-align-inverse, 0);
 }
 .input-group-addon:first-child {
-  border-right: 0;
+  border-#{$dir-mode-align-inverse}: 0;
 }
 .input-group .form-control:last-child,
 .input-group-addon:last-child,
@@ -120,7 +120,7 @@
 .input-group-btn:last-child > .dropdown-toggle,
 .input-group-btn:first-child > .btn:not(:first-child),
 .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
-  @include border-left-radius(0);
+  @include single-side-border-radius($dir-mode-align, 0);
 }
 .input-group-addon:last-child {
   border-left: 0;
@@ -140,7 +140,7 @@
   > .btn {
     position: relative;
     + .btn {
-      margin-left: -1px;
+      margin-#{$dir-mode-align}: -1px;
     }
     // Bring the "active" button to the front
     &:hover,
@@ -154,13 +154,13 @@
   &:first-child {
     > .btn,
     > .btn-group {
-      margin-right: -1px;
+      margin-#{$dir-mode-align-inverse}: -1px;
     }
   }
   &:last-child {
     > .btn,
     > .btn-group {
-      margin-left: -1px;
+      margin-#{$dir-mode-align}: -1px;
     }
   }
 }

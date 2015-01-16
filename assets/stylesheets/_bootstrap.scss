@@ -1,3 +1,13 @@
+/**
+ * Direction based on language
+ */
+
+
+//import language based variables and settings
+// rtl | ltr
+@import "ltr";
+
+
 // Core variables and mixins
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
