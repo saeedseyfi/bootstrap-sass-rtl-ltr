@@ -1,12 +1,9 @@
 {
   "name": "bootstrap-sass",
   "version": "3.3.1",
-  "homepage": "https://github.com/twbs/bootstrap-sass",
+  "homepage": "https://github.com/morilog/bootstrap-sass-rtl-ltr",
   "authors": [
-    "Thomas McDonald",
-    "Tristan Harward",
-    "Peter Gumeson",
-    "Gleb Mazovetskiy"
+    "Morteza Parvini (Morilog)"
   ],
   "description": "bootstrap-sass is a Sass-powered version of Bootstrap, ready to drop right into your Sass powered applications.",
   "main": [
@@ -31,7 +28,11 @@
   "keywords": [
     "twbs",
     "bootstrap",
-    "sass"
+    "sass",
+    "rtl",
+    "persian",
+    "right-to-left",
+    "bootstrap-rtl"
   ],
   "license": "MIT",
   "ignore": [

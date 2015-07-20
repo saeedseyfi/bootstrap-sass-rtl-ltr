@@ -1,26 +1,26 @@
 {
   "name": "bootstrap-sass",
   "version": "3.3.1",
-  "description": "bootstrap-sass is a Sass-powered version of Bootstrap, ready to drop right into your Sass powered applications.",
+  "description": "A Multi-Directional fork from bootstrap-sass, by Morteza Parvini (Morilog)",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/twbs/bootstrap-sass"
+    "url": "git@github.com:morilog/bootstrap-sass-rtl-ltr.git"
   },
   "keywords": [
     "bootstrap",
     "sass",
-    "css"
+    "css",
+    "rtl",
+    "persian",
+    "bootstrap-rtl"
   ],
   "contributors": [
-    "Thomas McDonald",
-    "Tristan Harward",
-    "Peter Gumeson",
-    "Gleb Mazovetskiy"
+    "Morteza Parvini"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/twbs/bootstrap-sass/issues"
+    "url": "https://github.com/morilog/bootstrap-sass-rtl-ltr/issues"
   },
   "devDependencies": {
     "node-sass": "~1.0",
