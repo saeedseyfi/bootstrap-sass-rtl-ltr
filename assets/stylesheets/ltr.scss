@@ -1,6 +1,6 @@
 @mixin single-side-border-radius($side, $radius) {
 	border-bottom-#{$side}-radius: $radius;
-    border-top-#{$side}-radius: $radius;
+  border-top-#{$side}-radius: $radius;
 }
 
 
