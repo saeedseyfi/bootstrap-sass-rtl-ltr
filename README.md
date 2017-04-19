@@ -2,15 +2,20 @@
 
 Features:
 - support both RTL and LTR languages
-- separete settings file for each of directions
+- separate settings file for each of directions
 - RTL direction optimized as default for Persian(farsi) language with specific fonts.
 
 ## Installation
 ------
-for insallation, just change @import of direction settings file in [_bootstrap.scss](assets/stylesheets/_bootstrap.scss).
+for installation, just change @import of direction settings BEFORE importing [_bootstrap.scss](assets/stylesheets/_bootstrap.scss).
 ```sass
 @import "rtl"; // or ltr
 ```
+And import js file like this:
+```js
+require('bootstrap-sass');
+```
+
 > For more details about compile & installation, visit [Bootstrap-sass](https://github.com/twbs/bootstrap-sass)
 
 ## Settings
