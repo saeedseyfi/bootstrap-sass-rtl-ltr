@@ -2,7 +2,7 @@
   "name": "bootstrap-sass",
   "version": "3.3.1",
   "description": "A Multi-Directional fork from bootstrap-sass, by Morteza Parvini (Morilog)",
-  "main": "index.js",
+  "main": "assets/javascripts/bootstrap.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:morilog/bootstrap-sass-rtl-ltr.git"
@@ -16,7 +16,8 @@
     "bootstrap-rtl"
   ],
   "contributors": [
-    "Morteza Parvini"
+    "Morteza Parvini",
+    "Saeed Seyfi"
   ],
   "license": "MIT",
   "bugs": {
